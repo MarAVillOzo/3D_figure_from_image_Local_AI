@@ -1,0 +1,10 @@
+FLUID 3D STUDIO V3 — WINDOWS 11 / RTX 3060 12 GB
+
+1. Extraer completamente el ZIP en C:\FLUID3D (NO ejecutar dentro del ZIP).
+2. Doble clic en INSTALAR_Y_ABRIR.bat.
+3. El instalador MUESTRA lo que instala. Si falla, lee instalador\instalacion.log.
+4. Si completa y abre el navegador: importar imagen, generar y descargar GLB/STL/OBJ.
+5. Si quieres ver qué ocurre sin descargar: DIAGNOSTICO.bat.
+
+Incluye Hunyuan3D-2mini para FORMA. No incluye TRELLIS (16 GB VRAM oficial).
+No requiere Blender. No afirma que un modelo generado esté listo para calzado funcional.

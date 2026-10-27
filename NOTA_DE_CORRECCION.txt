@@ -1,0 +1,14 @@
+FLUID 3D STUDIO V3.1 - REPARACION DE NODE
+
+Problema corregido:
+El script PowerShell tenia un parametro $Args que hacia que Node se abriera sin --version.
+Ahora usa -ArgumentList con llamadas con parametros nombrados y bloquea invocaciones sin argumentos.
+Tambien se agrega BOM UTF-8 para mostrar correctamente el texto en Windows PowerShell.
+
+Si tienes ya V3:
+Copia instalador\instalar.ps1 de este paquete a la misma ruta de tu V3, reemplazando el anterior.
+Cierra la consola Node con .exit, vuelve a ejecutar INSTALAR_Y_ABRIR.bat.
+
+No borres las carpetas existentes ni descargues de nuevo Node / Hunyuan.
+
+IMPORTANTE: Se ha corregido el bloqueo identificado; no es una certificacion de que la instalacion completa y la inferencia de Hunyuan funcionen en Windows. No se dispone aqui de esa maquina.
